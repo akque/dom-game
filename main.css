@@ -1,0 +1,52 @@
+.block {
+    width: 46px;
+    height: 46px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    transition: border 0.2s ease-in-out;
+    background-color: greenyellow;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    height: 600px;
+    align-content: flex-start;
+    margin-bottom: 20px;
+    border: solid 2px black;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: greenyellow;
+}
+.cancel {
+    background-color: brown;
+    border: none;
+    color: wheat;
+    padding: 5px;
+    font-size: larger;
+    margin: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+.none {
+    display: none;
+}
+.count{
+    padding: 5px;
+    min-width: 75px;
+    max-width: 125px;
+    text-align: center;
+    border: solid 5px black;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+.red:hover {
+    border-color: black;
+}
