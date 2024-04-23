@@ -45,7 +45,7 @@ function paint (event, i) {
         .filter(element => !element.classList.contains("red"))
 
     count.textContent = allgreensquares.length
-    count.classList.remove("none")
+    // count.classList.remove("none")
   
 }
 
@@ -61,7 +61,7 @@ function cancel () {
     hideCount()
 }
 
-const hideCount = () => {count.classList.add("none")
+const hideCount = () => {
 count.textContent = 0}
 
 hideCount()
